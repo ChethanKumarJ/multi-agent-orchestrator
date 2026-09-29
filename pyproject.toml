@@ -1,0 +1,14 @@
+[project]
+name = "multi-agent-orchestrator"
+version = "0.1.0"
+description = "Multi-agent orchestration with LangGraph"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain-openai>=0.2.0",
+    "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
